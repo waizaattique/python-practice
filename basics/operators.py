@@ -62,3 +62,13 @@ print((a-b)* 2)
 
 x, y, z = 50, 12, 8
 print(x - y + z)   #Output : 46
+
+
+# Question no 6 ---**Challenge**---
+
+a, b, c  = 40, 8, 3
+print(a - b * c)
+print((a - b) * c)
+
+#Multiplication 
+
