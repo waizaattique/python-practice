@@ -56,7 +56,7 @@ print ( a- b *2)  #Output : 10
 #Question no 4 
 
 a, b = 20 , 5 
-print((a-b)* 2)
+print((a-b)* 2)  #Output : 30
 
 #Question no 5
 
@@ -67,8 +67,40 @@ print(x - y + z)   #Output : 46
 # Question no 6 ---**Challenge**---
 
 a, b, c  = 40, 8, 3
-print(a - b * c)
-print((a - b) * c)
+print(a - b * c)  #Output: 26
+print((a - b) * c)  #Output: 96
 
 #Multiplication 
+
+#Question no 1 
+
+a , b = 6 , 4
+print(a *b)  #Output : 24
+
+#Question no 2 
+
+a, b, c = 2, 3, 4
+print (a* b * c ) #Output :24
+
+#Question no 3 
+
+a, b = 5 , 2
+print(a + b * 4)  #Output : 13 
+
+#Question no 4 
+
+a, b = 5 , 2
+print((a+b)*4) #Output : 28 
+
+#Question no 5
+
+x = 7
+print(x * x)  #Output : 49
+
+#Question no 6  ---**Challenge**---
+
+a, b, c = 3,  4, 2
+print(a * b + c)
+print( a * ( b + c))
+
 
