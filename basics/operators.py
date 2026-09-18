@@ -178,4 +178,38 @@ print(a//(b + c )) #Output : 5
 
 
 
+""""----------------------------------------------------"""
+
+#Modules 
+
+#Question no 1
+
+print(17 % 4) #Output : 1
+
+#Question no 2
+
+a, b = 25 , 6
+print(a % b)  #Output : 1
+
+#Question no 3
+
+print(10 + 17% 5) #Output : 12
+
+#Question no 4
+
+print((10 + 17)% 5) #Output : 2
+
+#Question no 5
+
+a, b, c = 50 , 7,  3
+print(a % b + c)  #Output : 4
+
+#Question no 6  ---**Challenge**---
+
+a , b, c = 37 , 5 , 2
+print(a % (b * c)) #Output : 7
+print(a % b* c ) #Output : 4
+
+
+
 
