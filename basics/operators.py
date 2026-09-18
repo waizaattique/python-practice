@@ -33,6 +33,8 @@ A, B, C = 15, 4, 3
 print(A + B * C)  #Output : 27
 print((A + B) * C)  #Output : 57
 
+""""----------------------------------------------------"""
+
 # Subtractions 
 
 #Question no 1 
@@ -70,6 +72,8 @@ a, b, c  = 40, 8, 3
 print(a - b * c)  #Output: 26
 print((a - b) * c)  #Output: 96
 
+""""----------------------------------------------------"""
+
 #Multiplication 
 
 #Question no 1 
@@ -102,5 +106,76 @@ print(x * x)  #Output : 49
 a, b, c = 3,  4, 2
 print(a * b + c)
 print( a * ( b + c))
+
+
+""""----------------------------------------------------"""
+
+# Division 
+
+#Question no 1 
+
+a , b = 20 , 5 
+print (a / b)  #Output : 4.0
+
+#Question no 2
+
+a, b = 17 , 4
+print(a / b)  #Output : 4.25
+
+#Question no 3 
+
+a , b, c = 100, 5, 2 
+print(a/b/c)  #Output : 10.0
+
+#Question no 4
+
+a, b = 10, 4 
+print(a + b /2) #Ouput : 12.0
+
+
+#Question no 5 
+
+a , b = 10 , 4
+print((a + b)/2)  #Output : 7.0
+
+#Question no 6  ---**Challenge**---
+
+a, b , c = 50 , 5 , 2
+print (a / b +c )  #Output : 12.0
+print(a/(b +c)) #Output : 7.12
+
+
+""""----------------------------------------------------"""
+
+#Floor Division
+
+#Question no 1
+
+print(17//4)  #Output : 4
+
+#Question no 2 
+
+print(25 // 6) #Output : 4
+
+#Question no 3
+
+a , b = 100, 9
+print(a//b)  #Output : 11
+
+#Question no 4
+
+print(7 + 15//4)  #Output : 10
+
+#Question no 5
+
+print((7 + 15)//4)  #Output : 5
+
+#Question no 6  ---**Challenge**---
+
+a, b, c = 50 , 7, 2
+print(a//b +c)  #Output : 9
+print(a//(b + c )) #Output : 5 
+
+
 
 
