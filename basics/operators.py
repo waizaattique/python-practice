@@ -211,5 +211,52 @@ print(a % (b * c)) #Output : 7
 print(a % b* c ) #Output : 4
 
 
+#--- Mixed Operators (Advanced)---
+
+
+#Question no 1
+
+A,B,C = 8,3,2
+print(A+B*C)   #Output  : 14
+
+
+#Question no 2
+
+A,B,C = 20,6,2
+print(A - B * C)   #Output : 8
+
+
+#Question no 3
+
+A,B,C = 20,6,2
+print((A-B)*C)     #Output : 8
+
+ #Question no 4
+
+A,B = 17 , 5
+print(A//B + A % B)   #Output : 5
+
+ #Question no 5
+
+A,B = 2 , 4
+Txt = "!"
+print(Txt * (A + B)) #Output : !!!!!!
+print(Txt * A + Txt * B) #Output : !!!!!!
+
+ #Question no 6
+
+A,B,C = 5,3,2
+Txt = "@"
+print(A + B * C)  #Output : 11
+print((A + B) * C)  #Output : 16
+print(A % B)  #Output : 2
+print(Txt * (A + C))  #Output : @@@@@@@
+
+
+
+
+
+
+
 
 
